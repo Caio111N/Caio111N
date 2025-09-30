@@ -75,20 +75,42 @@ Linkedln: www.linkedin.com/in/caio-nicollas-cunha-reges-1594ab225
 <br/>
 
 ### 📊 Estatísticas
+import os
+from collections import defaultdict
 
-<p>
-  <img 
-    align="left" 
-    alt="GitHub Stats" 
-    height="200" 
-    style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=CaioNicollas&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
-  />
+# Extensões comuns e suas linguagens
+EXTENSOES = {
+    '.py': 'Python',
+    '.js': 'JavaScript',
+    '.ts': 'TypeScript',
+    '.java': 'Java',
+    '.cpp': 'C++',
+    '.c': 'C',
+    '.cs': 'C#',
+    '.rb': 'Ruby',
+    '.go': 'Go',
+    '.php': 'PHP',
+    '.html': 'HTML',
+    '.css': 'CSS',
+    '.swift': 'Swift',
+    '.rs': 'Rust',
+    '.kt': 'Kotlin'
+}
 
-  <img 
-    align="left" 
-    alt="Tecnologias mais usadas" 
-    height="200" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=CaioNicollas&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
-  />
-</p>
+def contar_linguagens(diretorio='.'):
+    contagem = defaultdict(int)
+    for raiz, _, arquivos in os.walk(diretorio):
+        for arquivo in arquivos:
+            _, ext = os.path.splitext(arquivo)
+            linguagem = EXTENSOES.get(ext)
+            if linguagem:
+                contagem[linguagem] += 1
+    return contagem
+
+if __name__ == '__main__':
+    estatisticas = contar_linguagens()
+    print("📊 Estatísticas de Linguagens no Repositório:")
+    for linguagem, quantidade in sorted(estatisticas.items(), key=lambda x: -x[1]):
+        print(f"{linguagem}: {quantidade} arquivos")
+
+
