@@ -56,16 +56,18 @@ Linkedln: www.linkedin.com/in/caio-nicollas-cunha-reges-1594ab225
     title="Node.js" 
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" 
 />
+
 <img 
     align="left" 
-    alt=".NET Core" 
-    title=".NET Core" 
+    alt=".NET" 
+    title=".NET" 
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" 
 />
+
 
 
 
