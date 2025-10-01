@@ -2,7 +2,7 @@
 
 **`Desenvolvedora FullStack`**
 
-Me chamo Caio Nicollas, tenho 20 anos e sou de Ribeirão Preto. Estou cursando Ciência da Computação e, paralelamente, me especializando em inglês e desenvolvimento com C#. Tenho interesse em tecnologia, programação e soluções inovadoras, e estou em constante busca por aprendizado prático e desafios que impulsionem minha carreira na área de desenvolvimento de software.
+Me chamo Caio Nicollas, tenho 20 anos e sou de Ribeirão Preto. Estou cursando Ciência da Computação e, paralelamente, estudando inglês e desenvolvimento com C#. Tenho interesse em tecnologia, programação e soluções inovadoras, e estou em constante busca por aprendizado prático e desafios que impulsionem minha carreira na área de desenvolvimento de software.
 Linkedln: www.linkedin.com/in/caio-nicollas-cunha-reges-1594ab225
 
 
